@@ -1,0 +1,57 @@
+* {
+  font-family: "Monaspace Neon", "Symbols Nerd Font Mono";
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+}
+
+@define-color bg #2b3d41;
+@define-color fg #ede6f2;
+
+window#waybar {
+  background: transparent;
+}
+
+#custom-separator {
+  color: @fg; 
+  background-color: @bg;
+}
+
+#cpu, #temperature {
+  padding-left: 15px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px 0 0 10px;
+}
+
+#memory, #battery {
+  padding-right: 15px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 0 10px 10px 0;
+}
+
+#tray, #custom-power {
+  margin: 0 15px;
+  padding: 0 15px 0 15px;
+  color: @fg;
+  background-color: @bg;
+  border-radius: 10px;
+}
+
+#tags {
+  margin: 0 5px;
+  padding: 0 10px;
+  background-color: @bg;
+  border-radius: 10px;
+}
+
+#tags button {
+  color: @fg;
+}
+
+#tags button.focused {
+  color: #ff8a5b;
+}
+
+
