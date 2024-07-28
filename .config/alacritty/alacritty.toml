@@ -1,0 +1,26 @@
+#shell.program = "/bin/zsh"
+#shell.args = ["-l", "-c", "tmux attach || tmux"] 
+
+import = [
+    "~/.config/alacritty/themes/themes/enfocado_dark.toml"
+]
+
+[font]
+normal.family = "Monaspace Neon"
+size = 14
+#normal.style = "Retina"
+
+
+[window]
+padding = { x = 10, y = 10 }
+#opacity = 0.9
+#blur = true
+
+[keyboard]
+bindings = [
+  { key = "Left",  mods = "Control",     chars = "\u001bB"   },
+  { key = "Right", mods = "Control",     chars = "\u001bF"   },
+  { key = "Left",  mods = "Alt", chars = "\u001bOH"  },
+  { key = "Right", mods = "Alt", chars =  "\u001bOF" },
+  { key = "Back",  mods = "Alt", chars = "\u0015"    },
+]
