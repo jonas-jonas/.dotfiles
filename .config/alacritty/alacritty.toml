@@ -2,7 +2,7 @@
 #shell.args = ["-l", "-c", "tmux attach || tmux"] 
 
 import = [
-    "~/.config/alacritty/themes/themes/enfocado_dark.toml"
+    "~/.config/alacritty/themes/enfocado_dark.toml"
 ]
 
 [font]
