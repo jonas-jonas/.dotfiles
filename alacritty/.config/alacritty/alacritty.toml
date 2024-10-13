@@ -1,4 +1,4 @@
-#shell.program = "/bin/zsh"
+shell.program = "/bin/zsh"
 #shell.args = ["-l", "-c", "tmux attach || tmux"] 
 
 import = [
