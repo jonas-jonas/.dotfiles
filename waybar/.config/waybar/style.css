@@ -1,0 +1,78 @@
+* {
+    font-family: "Geist", "Symbols Nerd Font Mono";
+    font-weight: 500;
+    font-size: 14px;
+    min-height: 0;
+}
+
+@define-color bg #2b3d41;
+@define-color fg #ede6f2;
+
+window#waybar {
+    background: transparent;
+}
+
+#custom-separator {
+    color: @bg;
+    background-color: @bg;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#custom-apps,
+#custom-updates,
+#wireplumber {
+    background-color: @fg;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin: 0 8px;
+}
+
+#custom-power,
+#custom-chrome {
+    margin: 0 15px;
+    padding: 0 15px 0 15px;
+    color: @fg;
+    background-color: transparent;
+}
+
+#tags {
+    background-color: @fg;
+    border-radius: 50px;
+    padding: 3px 0px;
+    margin: 0 8px;
+}
+
+#tags button {
+    color: #717d80;
+    background-color: #acadae;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+#tags button.focused {
+    color: #0d0d0e;
+    background-color: #919191;
+    padding: 0 10px;
+}
+
+#tags.apps {
+    background-color: unset;
+}
+
+#tags button {
+    color: #717d80;
+    background-color: unset;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+#tags button.focused {
+    color: #0d0d0e;
+    background-color: #919191;
+    padding: 0 10px;
+}

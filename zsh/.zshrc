@@ -20,3 +20,7 @@ source <(fzf --zsh)
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH
+
+alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
+
+
