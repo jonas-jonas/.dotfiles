@@ -1,9 +1,3 @@
-shell.program = "/bin/zsh"
-#shell.args = ["-l", "-c", "tmux attach || tmux"] 
-
-import = [
-    "~/.config/alacritty/themes/enfocado_dark.toml"
-]
 
 [font]
 normal.family = "Monaspace Neon"
@@ -24,3 +18,13 @@ bindings = [
   { key = "Right", mods = "Alt", chars =  "\u001bOF" },
   { key = "Back",  mods = "Alt", chars = "\u0015"    },
 ]
+
+[general]
+#shell.args = ["-l", "-c", "tmux attach || tmux"] 
+
+import = [
+    "~/.config/alacritty/themes/enfocado_dark.toml"
+]
+
+[terminal]
+shell.program = "/bin/zsh"
