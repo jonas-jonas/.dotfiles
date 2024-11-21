@@ -10,6 +10,8 @@ riverctl input pointer-2-10-TPPS/2_IBM_TrackPoint accel-profile adaptive
 riverctl input $touchpad natural-scroll enabled
 riverctl input $touchpad scroll-factor 1
 riverctl input $touchpad tap enabled
+riverctl input $touchpad pointer-accel 0.8
+riverctl input $touchpad accel-profile flat
 
 swww-daemon &
 
