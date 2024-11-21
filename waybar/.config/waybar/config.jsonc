@@ -29,7 +29,7 @@
   },
   "custom/chrome": {
     "format": "",
-    "on-click": "",
+    "on-click": "/usr/bin/google-chrome-stable",
   },
   "custom/updates": {
     "format": "   {}",
